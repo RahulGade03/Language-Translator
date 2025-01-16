@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 2.5vh;
+}
+
+h1{
+  margin-top: 5vh;
+  font-size: 3vh;
+}
+
+.App{
+  height: auto;
+  background-color: 	#35a5ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainArea{
+  margin: auto;
+  width: 70vw;
+  height: 40vh;
+  background-color: #7de1f3;
+  border-radius: 2vh;
+  border: 0.7vh white solid;
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.translateArea{
+  display: flex;
+  justify-content: space-between;
+}
+
+textArea{
+  height: 10vh;
+  width: 30vw;
+  border-radius: 2vh;
+  border: 0.5vh white solid;
+  padding: 1vh 0px 0px 1vh;
+  background-color: #6ec1f4;
+  resize: none;
+}
+
+#translateBtn{
+  margin-top: 3vh;
+  height: 5vh;
+  width: 100%;
+  background-color: #4285f4;
+  color: white;
+  border-radius: 3vh;
+  border: 0.5vh white solid;
+  transition: all 1s ease-out;
+}
+
+#translateBtn:active{
+  transform: scale(0.95);
+}
+
+.functionality{
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: inherit;
+  margin-top: 3vh;
+  margin-left: 0px;
+}
+
+.exchangeIcon{
+  padding: 1.5vh 1vh 1vh 1vh;
+  border: 0.5vh solid white;
+  background-color: #4285f4;
+  border-radius: 5vh;
+  color: white;
+}
+
+.exchangeIcon:active{
+  transform: scale(0.95);
+}
+
+select{
+  width: 100%;
+  padding: 1vh;
+  border-radius: 50vh;
+  background-color: #4285f4;
+  border: 0.5vh white solid;
+  color: white;
+}
